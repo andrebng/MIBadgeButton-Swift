@@ -90,7 +90,7 @@ open class MIBadgeButton: UIButton {
             badgeLabel.isHidden = true
         }
         
-        self.bringSubview(toFront: badgeLabel)
+        self.bringSubviewToFront(badgeLabel)
     }
     
     fileprivate func setupBadgeStyle() {
